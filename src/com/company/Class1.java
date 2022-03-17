@@ -29,8 +29,8 @@ public class Class1 {
         this.word = word;
     }
 
-    public String [] getMassiv() {
-        return new String[]{Arrays.toString(massiv)};
+    public int[] getMassiv() {
+        return massiv;
     }
 
     public void setMassiv(int[] massiv) {
@@ -39,7 +39,7 @@ public class Class1 {
 
     @Override
     public String toString() {
-        return "Class1" +
+        return "Class1....." +
                 " number = " + number +
                 ", word = " + word  +
                 "  massiv = " + Arrays.toString(massiv) +""
